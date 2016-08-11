@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Voting</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h2>Select your favorite party:</h2>
+        <select class="form-control" id="candidates">
+          <option value="none" selected="true" disabled>Please choose one</option>
+          <option value="democrat">Democratic party</option>
+          <option value="republican">Republican</option>
+          <option value="libertarian">Libertarian</option>
+        </select>
+        <button type="submit">Go!</button>
+        <button type="reset" id="reset">Clear</button>
+      </form>
+      <div id="democrat">
+        <h1>Democratic party</h1>
+        <h2>Hillary Clinton</h2>
+          <img src="img/hillary.jpg" alt="Bill's suga momma" />
+        <h3>Tim Kaine</h3>
+          <img src="img/tim.jpg" alt="TIMMMAAYY" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="https://www.democrats.org/">Link to Democrats website.</a>
+      </div>
+      <div id="republican">
+        <h1>Republican party</h1>
+        <h2>Donald Trump</h2>
+          <img src="img/trump.jpg" alt="snake" />
+        <h3>Mike Pence</h3>
+          <img src="img/mike.jpg" alt="indiana snake" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="https://www.rosebrides.com/slovenian-brides.html">Link to the Republican website.</a>
+      </div>
+      <div id="libertarian">
+        <h1>Libertarian party</h1>
+        <h2>Gary <em>Johnson</em></h2>
+          <img src="img/gary.jpg" alt="THE Johnson" />
+        <h3>Bill Weld</h3>
+          <img src="img/bill.jpg" alt="Bill Weld" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="https://www.lp.org/">Link to Libertarian website.</a>
+      </div>
+      <div id="under-18">
+        <h1>Sorry, you can't vote.</h1>
+        <p>It's illegal in the US. Try Mexico or Europe.</p>
+      </div>
+    </div>
+  </body>
+</html>
